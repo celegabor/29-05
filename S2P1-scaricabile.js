@@ -166,18 +166,18 @@ if(totalShoppingCart >= 50){
 /* SCRIVI QUI LA TUA RISPOSTA */
 
  
-// let isMale = 'female'
+let isMale = 'male'
 
-// let gender = 'male' 
-// ? 'female' 
-// : 'male'
+let gender = (isMale === 'female') 
+? 'female' 
+: 'male'
 // if(isMale === 'male'){
 //   gender = 'male'
 // } else {
 //   gender = 'female'
 // }
 
-// console.log(gender)
+console.log(gender)
 
 /* ESERCIZIO EXTRA 5
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. Se un valore tuttavia è multiplo di 3 (operatore modulo!), stampa al suo posto la parola "Fizz" e se il numero è multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
@@ -198,5 +198,5 @@ for (let index = 1; index <= 100; index++) {
     numero = 'Buzz'
   }
 
-  console.log(numero);
+  // console.log(numero);
 }
