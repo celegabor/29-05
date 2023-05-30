@@ -84,8 +84,8 @@ for (let i = 0; i < numeriPariDispari.length; i++){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let tantiNumeri = 9
-let tantiNumeri2 = 0
+let tantiNumeri = 2
+let tantiNumeri2 = 6
 
 
 if ((tantiNumeri + tantiNumeri2) === 8 || (tantiNumeri - tantiNumeri2) === 8 || (tantiNumeri === 8) || (tantiNumeri2 === 8)){
@@ -184,17 +184,19 @@ if(totalShoppingCart >= 50){
 */
 
 for (let index = 1; index <= 100; index++) {
+
+  
   let numero = index
   let tre = index % 3 === 0
   let cinque = index % 5 === 0
 
   if(tre && cinque){
     numero = 'FrizzBuzz'
-  } else if (cinque){
-    numero = 'Buzz'
-  }else if (tre){
+  } else if (tre){
     numero = 'Frizz'
+  }else if (cinque){
+    numero = 'Buzz'
   }
 
-  // console.log(numero);
+  console.log(numero);
 }
