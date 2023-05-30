@@ -84,12 +84,15 @@ for (let i = 0; i < numeriPariDispari.length; i++){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let tantiNumeri = 7
-let tantiNumeri2 = 1
+let tantiNumeri = 9
+let tantiNumeri2 = 0
 
 
-if ((tantiNumeri + tantiNumeri2) === 8 || (tantiNumeri === 8) || (tantiNumeri2 === 8)){
+if ((tantiNumeri + tantiNumeri2) === 8 || (tantiNumeri - tantiNumeri2) === 8 || (tantiNumeri === 8) || (tantiNumeri2 === 8)){
   console.log('il risultato è 8')
+} else {
+  console.log('il risultato NON è 8')
+
 }
 
 
@@ -193,5 +196,5 @@ for (let index = 1; index <= 100; index++) {
     numero = 'Frizz'
   }
 
-  console.log(numero);
+  // console.log(numero);
 }
