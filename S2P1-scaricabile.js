@@ -26,7 +26,7 @@ ESERCIZIO 2
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let misuraMia = 13
+let misuraMia = 6
 
 if (misuraMia < 5){
   console.log('Tiny')
@@ -48,8 +48,6 @@ if (misuraMia < 5){
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let numeri = [0,1,2,3,4,5,6,7,8,9,10]
-
-let stampaNumeri 
 
 for (let i = 0; i < numeri.length; i++){
   
