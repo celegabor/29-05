@@ -54,7 +54,7 @@ for (let i = 0; i < numeri.length; i++){
   if(i === 3 || i === 8){
     continue
   }
-  //  console.log(i)
+   console.log(i)
 }
   
 
